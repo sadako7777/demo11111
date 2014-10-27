@@ -23,7 +23,7 @@ import java.util.List;
  */
 
 public class JWhiteBoard extends ReceiverAdapter implements ActionListener, ChannelListener {
-    protected String               groupName="";
+    protected String               groupName="Minh Huyen";
     private JChannel               channel=null;
     private int                    memberSize=1;
     private JFrame                 mainFrame=null;
