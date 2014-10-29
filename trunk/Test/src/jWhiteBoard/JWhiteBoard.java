@@ -37,6 +37,7 @@ public class JWhiteBoard extends ReceiverAdapter implements ActionListener, Chan
     boolean                        noChannel=false;
     boolean                        jmx;
     private boolean                useState=false;
+    
     private long                   stateTimeout=5000;
     private boolean                use_unicasts=false;
     protected boolean              send_own_state_on_merge=true;
